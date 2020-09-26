@@ -1,4 +1,9 @@
 /* Add here all your CSS customizations */
 .gelato-factory.coming-soon .rev_slider li.slide-overlay.slide-overlay-level-8 .slotholder:after {
-	opacity: 0;
+	opacity: 0.4;
+}
+
+.banner-logo {
+	width: 250px !important;
+	height: auto !important;
 }
