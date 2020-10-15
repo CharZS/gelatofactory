@@ -115,7 +115,7 @@ p, a, span, li, strong, b {
 
 @media (min-width: 992px) {
 	html.sticky-header-active .header-logo img {
-		width: 140px;
+		width: 100px;
 		height: auto;
 		top: 16px !important;
 	}
