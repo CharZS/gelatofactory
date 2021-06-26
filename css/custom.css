@@ -60,3 +60,11 @@ html .show > .btn-outline.btn-primary-gfactory.dropdown-toggle {
 .text-color-blue {
 	color: #99D6D2;
 }
+
+.custom-bg-color-blue {
+	background-color: #99D6D2;
+}
+
+.custom-bg-color-pink {
+	background-color: #F6DBE9;
+}
