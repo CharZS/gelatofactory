@@ -77,3 +77,8 @@ html .show > .btn-outline.btn-primary-gfactory.dropdown-toggle {
 .img-gteam .clearfix {
 	overflow: auto;
 }
+
+.awards-card {
+	border-top: 1px dotted #99D6D2;
+	padding: 10px;
+}
