@@ -68,3 +68,12 @@ html .show > .btn-outline.btn-primary-gfactory.dropdown-toggle {
 .custom-bg-color-pink {
 	background-color: #F6DBE9;
 }
+
+.img-gteam {
+	float: left;
+	margin-right: 15px;
+}
+
+.img-gteam .clearfix {
+	overflow: auto;
+}
