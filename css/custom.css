@@ -82,3 +82,20 @@ html .show > .btn-outline.btn-primary-gfactory.dropdown-toggle {
 	border-top: 1px dotted #99D6D2;
 	padding: 10px;
 }
+
+.header-button {
+	display: table;
+}
+
+.header-button .wrapper-div {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0 .9rem;
+}
+
+.header-button button {
+	font-family: 'Oswald', sans-serif;
+	font-size: 14.4px;
+	font-weight: 400;
+	text-transform: uppercase;
+}

@@ -165,8 +165,12 @@
 										<li class="dropdown order-5">
 											<a class="dropdown-item" data-hash data-hash-offset="92" href="#franchise">Franchise</a>
 										</li>
-										<li class="dropdown order-7">
-											<a class="dropdown-item" data-hash data-hash-offset="92" href="#locations">Locations</a>
+										<li class="dropdown order-6 header-button">
+											<div class="wrapper-div">
+												<button class="btn btn-primary btn-outline" data-toggle="modal" data-target="#formModal">
+													Enquire Now
+												</button>
+											</div>
 										</li>
 										<li class="align-items-center d-none d-lg-flex order-4 px-5 mx-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">
 											<span class="header-logo">
@@ -687,7 +691,7 @@
 								</div>
 								<div class="col-sm-3 col-lg-3">
 									<div class="call-to-action-btn">
-										<a href="#" target="_blank" class="btn btn-modern text-2 btn-primary">Enquire Now</a>
+										<a class="btn btn-modern text-2 btn-primary" data-toggle="modal" data-target="#formModal">Enquire Now</a>
 									</div>
 								</div>
 							</div>
@@ -696,7 +700,7 @@
 				</div>						
 			</section>
 
-			<footer class="bg-dark pt-5 mt-0" id="locations">
+			<footer class="bg-dark pt-5 mt-0" id="footer">
 				<div class="container container pt-5">
 					<div class="row mb-5 pb-4">
 						<div class="col text-center">
@@ -746,6 +750,50 @@
 				</div>
 			</footer>
 
+		</div>
+
+		<!--MODAL FORM-->
+		<div class="modal fade" id="formModal" tabindex="-1" aria-labelledby="formModalLabel" style="display: none;" aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="formModalLabel">Join our franchise</h4>
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+					</div>
+					<div class="modal-body">
+						<form id="enquire-form" class="mb-4" novalidate="novalidate">
+							<div class="form-group row align-items-center">
+								<label class="col-sm-3 text-left text-sm-right mb-0">Name</label>
+								<div class="col-sm-9">
+									<input type="text" name="name" class="form-control" placeholder="Type your name..." required="">
+								</div>
+							</div>
+							<div class="form-group row align-items-center">
+								<label class="col-sm-3 text-left text-sm-right mb-0">Email</label>
+								<div class="col-sm-9">
+									<input type="email" name="email" class="form-control" placeholder="Type your email..." required="">
+								</div>
+							</div>
+							<div class="form-group row align-items-center">
+								<label class="col-sm-3 text-left text-sm-right mb-0">Contact Number</label>
+								<div class="col-sm-9">
+									<input type="url" name="url" class="form-control" placeholder="Type your contact number...">
+								</div>
+							</div>
+							<div class="form-group row">
+								<label class="col-sm-3 text-left text-sm-right mb-0">Message</label>
+								<div class="col-sm-9">
+									<textarea rows="5" class="form-control" placeholder="Leave us a message..." required=""></textarea>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Submit</button>
+					</div>
+				</div>
+			</div>
 		</div>
 
 		<!-- Vendor -->
